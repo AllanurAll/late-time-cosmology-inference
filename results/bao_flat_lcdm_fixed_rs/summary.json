@@ -1,0 +1,48 @@
+{
+  "dataset": "BAO11_Ratra2021",
+  "model": "flat_LCDM_fixed_rs",
+  "calibration": {
+    "r_s_fixed_Mpc": 147.4,
+    "interpretation": "H0 is conditional on the fixed sound-horizon calibration. This reproduces the logic of the older BAO analysis."
+  },
+  "best_fit": {
+    "H0_km_s_Mpc": 68.47033145683739,
+    "Omega_m": 0.29670111399688187,
+    "chi2_min": 8.99588017307493
+  },
+  "posterior": {
+    "H0_km_s_Mpc": {
+      "q2.5": 66.68993532740491,
+      "q16": 67.55196966214984,
+      "median": 68.42890746130371,
+      "q84": 69.30793320285171,
+      "q97.5": 70.16514128718771,
+      "minus_68": 0.8769377991538647,
+      "plus_68": 0.8790257415480056,
+      "minus_95": 1.7389721338987982,
+      "plus_95": 1.7362338258839998
+    },
+    "Omega_m": {
+      "q2.5": 0.2669838870712933,
+      "q16": 0.28163302086657244,
+      "median": 0.29769097201684597,
+      "q84": 0.31499611996975674,
+      "q97.5": 0.3331293148533368,
+      "minus_68": 0.01605795115027353,
+      "plus_68": 0.01730514795291077,
+      "minus_95": 0.030707084945552687,
+      "plus_95": 0.03543834283649083
+    }
+  },
+  "mcmc_source": {
+    "source_chain": "results/bao_flat_lcdm/chain.h5",
+    "transformation_only": true,
+    "post_burn_samples": 567936
+  },
+  "fit_quality": {
+    "reduced_chi2": 0.99954224145277,
+    "dof": 9,
+    "AIC": 12.99588017307493,
+    "BIC": 13.791670718671671
+  }
+}

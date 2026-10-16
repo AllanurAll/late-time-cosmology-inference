@@ -1,0 +1,63 @@
+{
+  "provenance": "Ratra-style 11-point BAO compilation updated in Cao, Ryan & Ratra (2021).",
+  "boss_dr12": {
+    "z": [
+      0.38,
+      0.38,
+      0.51,
+      0.51,
+      0.61,
+      0.61
+    ],
+    "observable": [
+      "DM_scaled",
+      "H_scaled",
+      "DM_scaled",
+      "H_scaled",
+      "DM_scaled",
+      "H_scaled"
+    ],
+    "value": [
+      1512.39,
+      81.2087,
+      1975.22,
+      90.9029,
+      2306.68,
+      98.9647
+    ],
+    "r_s_fid_Mpc": 147.78
+  },
+  "independent": [
+    {
+      "z": 0.122,
+      "observable": "DV_scaled",
+      "value": 539.0,
+      "sigma": 17.0,
+      "r_s_fid_Mpc": 147.5
+    },
+    {
+      "z": 0.81,
+      "observable": "DA_over_rs",
+      "value": 10.75,
+      "sigma": 0.43
+    },
+    {
+      "z": 1.52,
+      "observable": "DV_scaled",
+      "value": 3843.0,
+      "sigma": 147.0,
+      "r_s_fid_Mpc": 147.78
+    }
+  ],
+  "lya_dr16": {
+    "z": 2.334,
+    "observable": [
+      "DM_over_rs",
+      "DH_over_rs"
+    ],
+    "value": [
+      37.5,
+      8.99
+    ]
+  }
+}

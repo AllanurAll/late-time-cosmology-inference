@@ -1,0 +1,53 @@
+{
+  "dataset": "Pantheon+_plus_SH0ES",
+  "model": "flat_LCDM",
+  "likelihood_definition": {
+    "selection": "(zHD > 0.01) OR IS_CALIBRATOR",
+    "observed_vector": "m_b_corr",
+    "calibrator_theory": "CEPH_DIST + M_B",
+    "hubble_flow_theory": "mu_LCDM(H0,Omega_m) + M_B",
+    "covariance": "Pantheon+SH0ES_STAT+SYS.cov",
+    "M_B_treatment": "analytic marginalization"
+  },
+  "best_fit": {
+    "H0_km_s_Mpc": 73.53281627635182,
+    "Omega_m": 0.3318107569965753,
+    "M_B": -19.244056968798095,
+    "chi2_min": 1452.0159499309957
+  },
+  "posterior": {
+    "H0_km_s_Mpc": {
+      "q2.5": 71.5583393762968,
+      "q16": 72.52068469392027,
+      "median": 73.52537870096813,
+      "q84": 74.54394356782191,
+      "q97.5": 75.5463312713361,
+      "minus_68": 1.0046940070478598,
+      "plus_68": 1.0185648668537794,
+      "minus_95": 1.9670393246713331,
+      "plus_95": 2.0209525703679674
+    },
+    "Omega_m": {
+      "q2.5": 0.2974297213699635,
+      "q16": 0.31422902535840885,
+      "median": 0.3319588844889816,
+      "q84": 0.35013177541716567,
+      "q97.5": 0.3682048346387225,
+      "minus_68": 0.017729859130572734,
+      "plus_68": 0.018172890928184082,
+      "minus_95": 0.0345291631190181,
+      "plus_95": 0.03624595014974091
+    }
+  },
+  "published_benchmark": {
+    "H0_km_s_Mpc": {
+      "central": 73.6,
+      "sigma_68": 1.1
+    },
+    "Omega_m": {
+      "central": 0.334,
+      "sigma_68": 0.018
+    },
+    "source": "Brout et al. 2022, Table 3, Pantheon+ & SH0ES FlatLCDM"
+  }
+}

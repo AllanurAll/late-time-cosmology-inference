@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "late-time-cosmology-inference"
+version = "0.1.0"
+description = "Research-grade late-time LCDM/XCDM inference with Pantheon+, cosmic chronometers, and BAO."
+authors = [{name = "Allanur Ansari"}]
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=2.0",
+  "scipy>=1.13",
+  "pandas>=2.2",
+]
+
+[project.optional-dependencies]
+research = [
+  "emcee>=3.1",
+  "h5py>=3.11",
+  "tqdm>=4.66",
+  "getdist>=1.5",
+  "matplotlib>=3.9",
+  "jupyterlab>=4.0",
+  "ipykernel>=6.0",
+]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

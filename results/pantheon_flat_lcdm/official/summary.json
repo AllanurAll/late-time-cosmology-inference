@@ -1,0 +1,32 @@
+{
+  "dataset": "Pantheon+",
+  "selection": "official",
+  "model": "flat_LCDM",
+  "important_note": "Pantheon+ is uncalibrated here. The additive SN intercept (absolute magnitude/H0 combination) is marginalized analytically, so no Pantheon+-only H0 value is quoted.",
+  "n_data": 1590,
+  "zHD_min": 0.01016,
+  "zHD_max": 2.26137,
+  "best_fit": {
+    "Omega_m": 0.33157641595155934,
+    "chi2_min": 1402.919128254056,
+    "intercept": 23.807232045255713
+  },
+  "posterior": {
+    "Omega_m": {
+      "q2.5": 0.29721035232791504,
+      "q16": 0.3141500936565884,
+      "median": 0.33203095135720956,
+      "q84": 0.3503634893741379,
+      "q97.5": 0.36859983142688824,
+      "minus_68": 0.017880857700621144,
+      "plus_68": 0.018332538016928357,
+      "minus_95": 0.03482059902929452,
+      "plus_95": 0.03656888006967868
+    }
+  },
+  "fit_quality": {
+    "n_fitted_parameters": 2,
+    "dof": 1588,
+    "reduced_chi2": 0.8834503326536877
+  }
+}
